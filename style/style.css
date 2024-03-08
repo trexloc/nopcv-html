@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+}
+
+.cv-document {
+    box-sizing: border-box;
+    border: none;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: arial, sans-serif, tahoma;
+    font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    background-color: #fff;
+    position: relative;
+
+    padding: 40px
+}
+
+.section-1 {
+    display: flex;
+}
+
+
+.section-background {
+    border-bottom: 2px solid #000000;
+    margin-bottom: 20px;
+}
+
+.name {
+    display: inline-block;
+    color: #0e2c6c;
+}
+
+.section-control {
+    margin: 40px 40px 40px 40px;
+    border-radius:10px;
+
+}
+
+.container-1 {
+    width: 100px;
+}
+
+.container {
+    height: 200px;
+    width: 610px;
+}
+
+.profile img {
+    width: 113px;
+    height: 113px;
+    margin-right: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(123, 94, 57);
+
+    margin-top: 10px;
+}
+
+.phan1 {
+    width: 250px;
+
+}
+
+.section-content {
+    border-bottom: 2px solid #c7c7c7;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.section li {
+    position: relative;
+    padding-left: 10px;
+}
+
+.section li:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1.5%;
+    height: 100%;
+    border-left: 1px dashed #000000;
+}
